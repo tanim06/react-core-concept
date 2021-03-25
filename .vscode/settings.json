@@ -3,7 +3,7 @@
     "workbench.colorTheme": "Dracula Soft",
   
     // config related to code formatting
-    "editor.fontSize": 16,
+    "editor.fontSize": 13,
     // "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.defaultFormatter": "codeco.formact",
     "formact.actions": ["formact.prettier.format", "eslint.executeAutofix"],
