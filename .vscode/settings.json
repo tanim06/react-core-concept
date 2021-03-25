@@ -1,0 +1,36 @@
+{
+    // Theme
+    "workbench.colorTheme": "Dracula Soft",
+  
+    // config related to code formatting
+    "editor.fontSize": 16,
+    // "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "codeco.formact",
+    "formact.actions": ["formact.prettier.format", "eslint.executeAutofix"],
+  
+    "editor.formatOnSave": true,
+  
+    "[javascript]": {
+      "editor.formatOnSave": false,
+      "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+    },
+    "[javascriptreact]": {
+      "editor.formatOnSave": false,
+      "editor.defaultFormatter": null
+    },
+    "javascript.validate.enable": false, //disable all built-in syntax checking
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true,
+      "source.fixAll.tslint": true,
+      "source.organizeImports": true
+    },
+    "eslint.alwaysShowStatus": true,
+    // emmet
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+    },
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true
+  }
+  
